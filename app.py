@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from post import Post
 import requests
 
-posts = requests.get("https://api.npoint.io/5e6358fe9b614917daf4").json()
+posts = requests.get("https://api.npoint.io/a8e143181804512a205b").json()
 print(posts)
 post_objects = []
 for post in posts:
